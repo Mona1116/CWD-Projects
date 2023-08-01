@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Font awesome cdnjs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/6977a1e4f7.js" crossorigin="anonymous"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Navbar & Sidenav</title>
+</head>
+<body>
+    <div class="navbar-fixed">
+    <nav class="teal lighten-3">
+        <div class="nav-wrapper">
+            <div class="container">
+                <a href="#" class="brand-logo"><i class="fa-solid fa-book small lighten-3"></i>TURO</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li class="active"> <a href="">About</a></li>
+                </ul>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="">Home</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>  
+    <h3 class="center">
+        <div class="container">
+            <a href="#" class="brand-logo left"><i class="fa-solid fa-book small light-green-text hide-on-large-only"></i></a>
+        <h1 class="light-green-text text-lighten-3s">Navbar</h1>
+        </div>
+    </h3>
+    <div class="divider"></div>
+    <div class="container">
+        <p>The navbar is fully contained by an HTML5 Nav tag. Inside a recommended container div, there are 2 main parts of the navbar. A logo or brand link, and the navigations links. You can align these links to the left or right.</p>
+
+        <br>
+        <h3 class="light-green-text text-lighten-3s">Right Aligned Links</h3>
+        <p>To right align your navbar links, just add a right class to your <'ul'> that contains them.</p>
+        <nav class="green lighten-3">
+            <div class="nav-wrapper">
+                <div class="container">
+                    <a href="" class="brand-logo"><i class="fa-solid fa-book small lighten-3""></i>TURO</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="">About</a></li>
+                    </ul>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="">Home</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <br>
+        <!-- Left Aligned Links -->
+        <h3 class="light-green-text text-lighten-3s">Left Aligned Links</h3>
+        <p>To left align your navbar links, just add a left class to your <'ul'> that contains them.</p>
+        <nav class="purple lighten-3">
+            <div class="nav-wrapper">
+                <div class="container">
+                    <a href="#" class="brand-logo right"><i class="fa-solid fa-book small lighten-3"></i>TURO</a>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li><a href="">About</a></li>
+                    </ul>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li><a href="">Home</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <br>
+        <!-- Centering the logo -->
+        <h3 class="light-green-text text-lighten-3s">Centering the logo</h3>
+        <p>The logo will center itself on medium and down screens, but if you want the logo to always be centered, add the center class to your <'a class="brand-logo"'>. You will have to make sure yourself that links do not overlap if you use this.</p>
+        <nav class="teal lighten-3">
+            <div class="nav-wrapper">
+                <div class="container">
+                    <a href="#" class="brand-logo center"><i class="fa-solid fa-book small lighten-3"></i>TURO</a>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li><a href="">About</a></li>
+                    </ul>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li><a href="">Home</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <br>
+        <!-- Fixed Navbar -->
+        <h3 class="light-green-text text-lighten-3s">Fixed Navbar</h3>
+        <p>To make the navbar fixed, you have to add an outer wrapping div with the class navbar-fixed. This will offset your other content while making your nav fixed. You can adjust the height of this outer div to change how much offset is on your content.</p>
+        <nav class="blue lighten-3">
+            <div class="nav-wrapper">
+                <div class="container">
+                    <a href="#" class="brand-logo center"><i class="fa-solid fa-book small lighten-3"></i>TURO</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="">About</a></li>
+                    </ul>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="">Home</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <br>
+        <!-- Extended Navbar with Tabs -->
+        <h3 class="light-green-text text-lighten-3s">Extended Navbar with Tabs</h3>
+        <p>To add extended components to the navbar, add the class nav-extended to the outer nav tag. This will allow your navbar height to be variable. Then you can just include a tabs component inside the nav-wrapper.</p>
+        <nav class="nav-extended deep-purple lighten-3">
+            <div class="nav-wrapper">
+                <a href="" class="brand-logo center"><i class="fa-solid fa-book small lighten-3"></i>TURO
+                    <a href="#" class="sidenav-trigger" data-target="mobile-demo"><i class="fa-solid fa-bars small lighten-3"></i>
+                    </a>
+                </a>
+            </div>
+            <div class="nav-content">
+                <ul class="tabs tabs-transparent">
+                    <li class="tab">
+                        <a href="#following"> Following</a>
+                    </li>
+                    <li class="tab">
+                        <a href="#trending">Trending</a>
+                    </li>
+                    <li class="tab">
+                        <a href="">Your Work</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Tabs structure -->
+        <div class="row deep-purple lighten-3">
+            <!--- Following -->
+            <div class="col s12" id="following">
+                <div class="card-panel purple darken-3">
+                     <!-- Switch -->
+                     <div class="switch">
+                        <label>
+                        Recent
+                        <input type="checkbox">
+                        <span class="lever"></span>
+                        Top
+                        </label>
+                    </div>
+                </div>
+                <section class="section
+                section-following-content">
+                   <div class="container">
+                       <h5 class="center black-text">Youaren't following anyone yet! Maybe you could find some people to follow in
+                       <span class="pink-text text-lighten-1">Trending</span> ?</h5>
+                   </div>
+                </section>
+            </div>
+            
+                <!-- Trending -->
+                <div class="col s12 id="trending">
+                <section class="section">
+                    <div class="row">
+                        <div class="col s6">
+                            <div class="card purple lighten-5">
+                                <div class="card-image">
+                                    <img src="img2 (1).jpg" alt="" class="materialboxed">
+                                </div>
+                                <div class="card-content">
+                                    <i class="fa-solid fa-feather-pointed small"></i>
+                                    <span class="black-text">Nested Respectful Man</span>
+                                    <p class="black-text">Adam Argyle</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s6">
+                            <div class="card purple lighten-5">
+                                <div class="card-image">
+                                    <img src="img2 (1).jpg" alt="" class="materialboxed">
+                                </div>
+                                <div class="card-content">
+                                    <i class="fa-solid fa-feather-pointed small"></i>
+                                    <span class="black-text">Nested Respectful Man</span>
+                                    <p class="black-text">Adam Argyle</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                </div>
+        </div>
+
+        <!-- sidenav structure -->
+        <ul class="sidenav purple lighten-3" id="mobile-demo">
+            <li>
+                <a href=""><h5 class="center white-text">TURO<i class="fa-solid fa-chalkboard-user"></i></h5></a>
+            </li>
+            <div class="progress">
+                <div class="determinate"
+                style="width: 100%;"></div>
+            </div> 
+            <li>
+                <div class="card-panel purple accent-3">
+                <a href="" class="white-text"><i class="fa-sharp fa-solid fa-pen-to-square medium"></i>PEN</a>
+                <a><i class="fa-solid fa-caret-down right white-text"></i></a>
+                </div>
+            </li>
+            <li>
+                <div class="card-panel purple accent-3">
+                    <a href="">
+                        <h6 class="white-text">
+                            <span class="text-blue-grey text-darken-2">
+                                <i class="fa-brands fa-windows"></i>
+                            </span>
+                            Collection
+                            <i class="fa-solid fa-caret-down right white-text"></i>
+                        </h6>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <a href="" class="white-text">Your Work</a>
+            </li>
+            <li>
+                <a href="" class="white-text">Activity</a>
+            </li>
+            <li>
+                <a href="" class="white-text">Assets</a>
+            </li>
+            <li>
+                <a href="" class="white-text">Pinned Items</a>
+            </li>
+            <li>
+                <a href="" class="white-text">Following</a>
+            </li>
+            <li>
+                <a href="" class="white-text">Trending</a>
+            </li>
+            <li>
+                <a href="" class="white-text">Challenges</a>
+            </li>
+            <li>
+                <a href="" class="white-text">Spark</a>
+            </li>
+            <li>
+                <a href="" class="white-text">TURO<i class="fa-solid fa-lock right white-text"></i></a>
+            </li>
+        </ul>
+
+
+
+
+    <div style="height: 1000px;"></div>
+
+
+
+
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+    <script>
+         $(document).ready(function() {
+            // sidenav init
+            $('.sidenav').sidenav();
+            // tabs init
+            $('.tabs').tabs();
+         });
+    </script>
+</body>
+</html>

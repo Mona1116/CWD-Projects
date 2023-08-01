@@ -1,0 +1,37 @@
+.dropbox-logo {
+    padding: 0px 20px 20px;
+}
+
+.section-main {
+    background: #f06292;
+}
+
+.btn-text {
+    color:black;
+}
+
+.section-products {
+    background: #f7f5f2;
+}
+
+.products-heading {
+    font-family: 'Lumanosimo', cursive;
+    font-family: 'Lumanosimo', cursive;
+    font-family: 'Montserrat', sens-serif;
+    color: #8d6e63;
+}
+
+.icon-heading {
+    color: #000000;
+    font-weight: bolder;
+}
+
+.icon-link {
+    color: #000000;
+    font-weight: bolder;
+}
+
+.icon-link:hover {
+    font-weight: bolder;
+    text-decoration:underline
+}
